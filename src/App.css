@@ -1,0 +1,34 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to top right, #71AE51 1%, #F3BA4B 25%, #E6873B 40%, #CF4845 60%, #8B4593 80%, #449CD7 100%);
+}
+
+body {
+  font-family: 'Marmelad', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 1.1px;
+  margin-bottom: 2px;
+}
+
+#root {
+  max-width: 800px;
+  margin: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+*:focus {
+  outline: none;
+}
